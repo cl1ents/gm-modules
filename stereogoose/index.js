@@ -1,6 +1,7 @@
 import * as webpackModules from '@goosemod/webpack';
 import { createItem, removeItem } from '@goosemod/settings';
 
+const version = "1.0.0";
 let settings = {
     enabled: true
 }

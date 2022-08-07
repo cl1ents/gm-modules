@@ -1,0 +1,12 @@
+{
+    "main": "index.js",
+  
+    "name": "StereoGoose",
+    "description": "Stereocord, but for goosemod",
+  
+    "tags": ["Fun"],
+  
+    "authors": ["499802781235019777"],
+  
+    "version": "1.0.0"
+}

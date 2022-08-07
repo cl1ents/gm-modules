@@ -68,7 +68,7 @@ export default {
                     subtext: "Enables or disables stereo (must rejoin voicechat!)",
                     onToggle: (value) => {
                         if (settings.toasts)
-                            showToast(verify() && value ? 'Make sure to disable echo cancellation, noise reduction, and noise suppression, then rejoin the voice channel!' : 'Be sure to rejoin voice channel!')
+                            showToast(verify() && value ? 'Make sure to disable echo cancellation, noise reduction, and noise suppression, then rejoin the voicechat!' : 'Be sure to rejoin voicechat!')
                         settings.enabled = value
                     },
                     isToggled: () => !!settings.enabled,

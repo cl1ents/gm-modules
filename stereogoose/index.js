@@ -35,7 +35,7 @@ const patchVoice = () => {
                     obj.attenuationFactor = 200;
                     obj.prioritySpeakerDucking = 0;
                 }
-                
+
                 if (obj.encodingVoiceBitRate != 960000) obj.encodingVoiceBitRate = 960000;
 
                 if (obj.fec) obj.fec = false;
@@ -83,7 +83,7 @@ export default {
             ]);
         },
 
-        remove: async () => {
+        onRemove: async () => {
             removeItem("Stereogoose");
             unpatchVoice();
         },
@@ -91,11 +91,6 @@ export default {
         getSettings: () => [settings],
         loadSettings: ([_settings]) => {
             settings = _settings;
-        },
-
-        name: "Stereogoose",
-        description: "Stereocord, but for goosemod",
-        author: "499802781235019777",
-        version,
+        }
     }
 }

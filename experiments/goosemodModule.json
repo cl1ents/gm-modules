@@ -1,0 +1,12 @@
+{
+    "main": "index.js",
+  
+    "name": "experiments",
+    "description": "enables the experiments tab in discord's settings, because discord sux. (direct port of discordexperiments.plugin.js)",
+  
+    "tags": ["Fun"],
+  
+    "authors": ["499802781235019777"],
+  
+    "version": "1.0.0"
+}
